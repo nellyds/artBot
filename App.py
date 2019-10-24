@@ -1,17 +1,28 @@
 import tweepy
 import csv
 import os
+<<<<<<< HEAD
 consumer_key = ''
 consumer_key_secret = ''
 access_token = ''
 access_token_secret = ''
+=======
+consumer_key = 'SDffI3QFeng4u5dWG9iEKqdqD'
+consumer_key_secret = 'm9hPW9TSdUX9ma6QaONN0p3hADe5KsBm1Vh9Vjoq5VXjvkHfQ6'
+access_token = '1179929860480872448-XQGmTnVI1wPPC0iTtkU9ya5Awqch1K'
+access_token_secret = 'OKk7YF3tx3yDuBu5U7fcGsoB3vZPG0MSXQHnjMnh5tiwn'
+>>>>>>> 9d9e9b1a6e1ed6902bb98150ad3cde4a4033c7aa
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_key_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 # note your output folder here
+<<<<<<< HEAD
 workDir = ""
+=======
+workDir = "/Users/nelson/Documents/illustrations"
+>>>>>>> 9d9e9b1a6e1ed6902bb98150ad3cde4a4033c7aa
 # verify connectivity
 try:
     api.verify_credentials()
@@ -56,5 +67,9 @@ def main():
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d9e9b1a6e1ed6902bb98150ad3cde4a4033c7aa
 if __name__ == '__main__':
     main()
